@@ -1,8 +1,8 @@
 <template>
-  <div class="w-full h-screen bg-zinc-800">
+  <div class="w-full min-h-screen bg-zinc-800">
     <div class="grid grid-cols-4 gap-5 p-16 text-white ">
         <div v-for="p in products">
-            <NuxtLink :to="`/products/${p.id}`">{{ p.title }}</NuxtLink>
+          <ProductCard :product="p"/>
         </div>
     </div>
   </div>

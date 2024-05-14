@@ -1,8 +1,6 @@
 <template>
-  <div class="w-full h-screen bg-zinc-800">
-    <h1>{{ product.title }}</h1>
-    <h1>{{ product.price }}</h1>
-    <h1>{{ product.id }}</h1>
+  <div class="w-full min-h-screen bg-zinc-800">
+    <ProductDetails :product = "product"/>
   </div>
 </template>
 
