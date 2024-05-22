@@ -13,7 +13,7 @@
           quas dicta! Ex officia quaerat modi minima voluptate repellat incidunt
           maiores nihil? Soluta, ex doloremque.
         </p>
-      </transition>
+      </transition> 
     </center>
   </div>
 </template>
@@ -39,7 +39,7 @@ onMounted(() => {
 }
 .fade-enter-active,
 .fade-leave-active {
-  transition: opacity 2s ease;
+  transition: opacity 4s ease;
 }
 
 .fade1-enter-from,
@@ -52,6 +52,6 @@ onMounted(() => {
 }
 .fade1-enter-active,
 .fade1-leave-active {
-  transition: opacity 2s ease;
+  transition: opacity 4s ease;
 }
 </style>
